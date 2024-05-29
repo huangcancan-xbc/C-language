@@ -12,10 +12,10 @@ int main(){
         //ÍêÃÀÉí²Ä
         if(b<a*0.1){
             printf("You are wan mei!\n");
-        }else if(b>a*0.1){
-            printf("You are tai pang le!\n");
-        }else {
+        }else if(W<a){
             printf("You are tai shou le!\n");
+        }else {
+            printf("You are tai pang le!\n");
         }
     }return 0;
 }
